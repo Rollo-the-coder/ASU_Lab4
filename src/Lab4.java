@@ -13,6 +13,8 @@ public class Lab4 {
 
         System.out.println("Please enter a number");
         int n = sc.nextInt();
+
+        sc.close();
         
         //odds
         for (int i = 1; i < n; i += 2) {
@@ -60,8 +62,6 @@ public class Lab4 {
             forFibTwo = forFibOne + forFibTwo;
             forFibOne = tempTwo;
         }
-
-
-        sc.close();
+        
     }
 }
